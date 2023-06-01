@@ -28,5 +28,17 @@ int main()
  int num3[15] = {3, 5, 7, 9};
  int n = 15;
 
- printArray(num3, 15);
+ // printArray(num3, 15);
+
+ char ch[5] = {
+     'a',
+     'b',
+     'c',
+     'd',
+     'e',
+ };
+
+ cout << ch[4] << endl;
+ cout << ch[5] << endl;
+ // printArray(ch, 4);
 }
