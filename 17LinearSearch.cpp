@@ -18,20 +18,19 @@ int main()
 {
  int arr[10] = {5, 7, -2, 10, 22, -2, 0, 5, 22, 1};
 
- /*
-  cout << "Enter the element you want search for " << endl;
-  int elem;
-  cin >> elem;
+ cout << "Enter the element you want search for " << endl;
+ int elem;
+ cin >> elem;
 
-  bool isFound = linearSearch(arr, 10, elem);
-  if (isFound)
-  {
-   cout << elem << " is present";
-  }
-  else
-  {
-   cout << elem << " is not present";
-  }
-  */
+ bool isFound = linearSearch(arr, 10, elem);
+ if (isFound)
+ {
+  cout << elem << " is present";
+ }
+ else
+ {
+  cout << elem << " is not present";
+ }
+
  // check whether 1 is present in it or not
 }
