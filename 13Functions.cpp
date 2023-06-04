@@ -87,8 +87,8 @@ bool isPrime(int n)
  {
   if (n % 2 == 0)
   {
-
-   return false;
+   return 0;
+   break;
   }
  }
  return true;
@@ -105,6 +105,8 @@ int main()
  // cout << value << endl;
  // printCounting(5);
  // printCounting(15);
+
+ // to check if the given no is prime or not
  int n;
  cin >> n;
  if (isPrime(n))
