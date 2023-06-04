@@ -29,18 +29,22 @@ int noOfSetBits(int a, int b)
   return n;
 }
 
-int fibonacci()
+void printFibonacci()
 {
   // this doesn't work as expected, I'll come back to it
   int n;
   cin >> n;
-  int fib = 0;
+  int a = 0;
+  int b = 1;
+
+  cout << a << " " << b << " ";
   for (int i = 3; i <= n; i++)
   {
-    fib = i - 1 + (i - 2);
-    cout << fib << " ";
+    int nextNumber = a + b;
+    cout << nextNumber << " ";
+    a = b;
+    b = nextNumber;
   }
-  return fib;
 }
 
 int main()
@@ -68,5 +72,5 @@ int main()
 
    noOfSetBits(a, b); */
 
-  fibonacci();
+  printFibonacci();
 }
